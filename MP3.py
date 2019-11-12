@@ -11,7 +11,7 @@ def jalan():
   os.system("youtube-dl --extract-audio --audio-format mp3 " + l)
 
 print("Install Bahan? Y/T")
-c = input("")
+c = input(" ")
 if c == Y | c == y:
   os.system("pkg install python2")
   os.system("pip2 install youtube-dl")
