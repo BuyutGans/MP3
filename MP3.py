@@ -1,0 +1,10 @@
+import os
+biru = "33[0;36m"
+hijau = ""
+print (20*biru + "=")
+print('+Tools Download Mp3+')
+print('+Sederhana         +')
+print('+Autho:Buyut       +')
+print(20*biru + '=')
+l = input('Link Youtubenya: ')
+os.system("youtube-dl --extract-audio --audio-format mp3 " + l)
